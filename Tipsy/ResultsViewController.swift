@@ -12,8 +12,8 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var settingsLabel: UILabel!
     
-    var moneyResult: String = "0.0"
-    var finalTip: String = "0.0"
+    var moneyResult: String = ""
+    var finalTip: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
